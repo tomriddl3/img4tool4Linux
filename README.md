@@ -1,4 +1,4 @@
-# img4tool
+# img4tool for Linux
 _A tool for manipulating IMG4, IM4M and IM4P files_
 
 # BUILD
@@ -14,6 +14,9 @@ To compile run:
 ./autogen.sh
 make
 sudo make install
+cd img4tool/.libs/
+sudo cp libimg4tool.so.0 /usr/local/bin/
+sudo ldconfig
 ```
 
 
